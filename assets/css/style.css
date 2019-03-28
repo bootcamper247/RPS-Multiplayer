@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#pageTitle{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    overflow: none;
+    /* margin: 0px; */
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+#rock, #paper, #scissors {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 6px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+
+  #txtRock, #txtPaper, #txtScissors{
+      padding-top: 30%;
+  }
+
+  #gameInstr{
+      text-align: center;
+  }
+
+  #btnSubmit, #btnNext{
+      font-size: 1.3rem;
+  }
+
+  #yourDiv, #oppDiv, #cmnDiv{
+      /* border: 1px solid black; */
+  }
+  #chatWindow{
+    /* border: 1px solid black; */
+
+  }
+  #btnNext{
+      display: none;
+  }
+
+  #message{
+      color: blue;
+      font-size: 25px;
+  }
+
+  #chatWindow{
+      /* background-color: brown; */
+  }

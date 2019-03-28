@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script src="assets/javascript/logic.js"></script>
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 id="pageTitle">Rock Paper Scissors</h1>
+        <!-- <h4 id="gameInstr">This Game Requires 2 Players</h4> -->
+    </div>
+    <br>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="text-center">
+                    <span class="rounded-circle" id="rock">
+                        <h3 id="txtRock">Rock</h3>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="text-center">
+                    <span class="rounded-circle paper" id="paper">
+                        <h3 id="txtPaper">Paper</h3>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="text-center">
+                    <span class="rounded-circle scissors" id="scissors">
+                        <h3 id="txtScissors">Scissors</h3>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="text-center">
+            <div class="row">
+                <div class="col-sm-3" id="yourDiv">
+                    <h4 id="yourName">You</h4>
+                    <hr>
+                    <h5 id="yourWins">Wins</h5>
+                    <h5 id="yourTies"></h5>
+                    <h5 id="yourLosses"></h5>
+                    <br><br>
+                </div>
+                <div class="col-sm-6" id="cmnDiv">
+                    <!-- <br> -->
+                    <p id="message"></p>
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-10">
+                            <!-- <div class="text-center"> -->
+                            <form class="form" id="userNameForm">
+                                <div class="form-group">
+                                    <label for="inputName">
+                                        <h5>Enter Your Name:&nbsp&nbsp</h5>
+                                    </label>
+                                    <input type="text" class="form-control" id="inputName">
+                                </div>
+                                <button type="submit" class="btn btn-dark" id="btnSubmit">Submit</button>
+                                <br>
+                            </form>
+                            <button class="btn btn-dark" id="btnNext">Next</button>
+                        </div>
+
+                        <div class="col-sm-1"></div>
+                    </div>
+
+                </div>
+                <div class="col-sm-3" id="oppDiv">
+                    <h4 id="oppName">Opponent</h4>
+                    <hr>
+                    <h5 id="oppWins">Wins</h5>
+                    <h5 id="oppTies"></h5>
+                    <h5 id="oppLosses"></h5>
+
+                </div>
+            </div>
+            <br><br>
+            <div class="row" >
+                <div class="col-sm-12" id="chatDiv">
+                    <form>
+                        <div class="form-group">
+                            <label for="chatWindow">
+                                <h4>Chat</h4>
+                            </label>
+                            <textarea class="form-control" rows="5" id="chatWindow"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark" id = "btnChat" style = "float: right;">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
