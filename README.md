@@ -8,6 +8,8 @@
 
 - Only two users can play at the same time.
 
+- Players need to register before they can begin playing
+
 - Both players can pick either rock, paper or scissors. After both players make their selection, the game tells them whether a tie occurred or if one player defeated the other.
 
 - The game tracks each player's wins and losses.
