@@ -2,7 +2,7 @@
 
 # Rock Paper Scissors
 ## https://bootcamper247.github.io/RPS-Multiplayer/
-## HTML/CSS/JQuery
+## HTML/CSS/JQuery/Firebase
 
 - Here's how the app works:
 
